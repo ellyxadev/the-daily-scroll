@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17T18:52:37+01:00",
+  "last_updated": "2026-11-17T18:53:19+01:00",
   "articles": [
     {
       "id": "a53e973e0b9b3b25",
@@ -305,7 +305,12 @@
       "source": "The Guardian",
       "moods": [
         "learn"
-      ]
+      ],
+      "image_url": "https://i.guim.co.uk/img/media/7d6c6412622798b05b5b5eacfa9f49b76ef22640/940_886_1120_897/master/1120.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=155cdd189416faa31453fe56d1fd3b56",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "About 10% of people have significant trouble identifying their emotions – which makes it harder to know what to do about them",
+      "media_checked": true
     },
     {
       "id": "2a3f3310ea0c0ae8",
@@ -321,7 +326,12 @@
       "moods": [
         "relax",
         "learn"
-      ]
+      ],
+      "image_url": "https://i.guim.co.uk/img/media/03f809f0dbaf4b49f8f048bcdadc0061d99eb31e/0_1072_9126_7301/master/9126.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a29c79f2f84d825c622200b6f029716e",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "Daniel Craig’s successor in the franchise is confirmed after a long casting process, making Pattinson the seventh actor to play the role of 007",
+      "media_checked": true
     },
     {
       "title": "The one change that worked: I was burnt out and lonely – until I started ice skating",
@@ -337,7 +347,12 @@
         "relate",
         "relax"
       ],
-      "id": "1f364f8b3c6f6ed4"
+      "id": "1f364f8b3c6f6ed4",
+      "image_url": "https://i.guim.co.uk/img/media/ec0bbf711f170ac277ffbe34bcde7399430b76eb/424_0_5493_4397/master/5493.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=17d72abe2cad54fa2c7d6f761c511306",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "I was stressed and newly diagnosed with ADHD when I decided to choose a new hobby. It awakened my playfulness and immediately improved my quality of life",
+      "media_checked": true
     },
     {
       "id": "1c735b770a65e0d8",
@@ -353,7 +368,12 @@
       "moods": [
         "relax",
         "learn"
-      ]
+      ],
+      "image_url": "https://i.guim.co.uk/img/media/52998905ac1b42cd2f35c76938d9c4dbf8e5bc80/0_1607_6192_4954/master/6192.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c5d4d64c47f2d4d1415ab6994ac8d293",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "She threw a (metaphorical) brick through Spotify’s window and exposed music biz failings with her ‘Butts for Tour Buses’ campaign. Now the singer is embracing her Irish roots with her new album’s fighting spirit",
+      "media_checked": true
     },
     {
       "title": "The hill I will die on: There is only one acceptable occasion on which to ghost someone – when you die",
