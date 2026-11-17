@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17T18:42:28+01:00",
+  "last_updated": "2026-11-17T18:43:37+01:00",
   "articles": [
     {
       "id": "a53e973e0b9b3b25",
@@ -46,6 +46,23 @@
         "laugh",
         "relax"
       ]
+    },
+    {
+      "id": "6f6280d4e252a64a",
+      "title": "The Fantasticks review – gay reimagining of musical is a heartwarming delight",
+      "description": "Hayes theater, New York City The world’s longest running musical is brought to Broadway for the first time in a joyful new version If you, like no doubt millions of tenderhearts the world over, are mourning the end of the Netflix series…",
+      "category": "Cultuur",
+      "kind": "Artikel",
+      "author": "Richard Lawson",
+      "date": "2026-11-17",
+      "minutes": 9,
+      "url": "https://www.theguardian.com/stage/2026/nov/16/the-fantasticks-musical-review-hayes-theatre-new-york",
+      "source": "The Guardian",
+      "moods": [
+        "relax",
+        "learn"
+      ],
+      "interest_score": 3
     },
     {
       "id": "5b91a1d72117cc26",
@@ -443,6 +460,23 @@
       "moods": [
         "relax"
       ]
+    },
+    {
+      "id": "298f3ccdcaadff35",
+      "title": "Heartland review – Jessica Chastain’s Netflix country music thriller is more miss than hit",
+      "description": "The Oscar winner plays a singer turned detective searching for her niece in an overly generic Nashville-based mystery that fails to find its footing Given the popularity of its music and the streaming services’ interest in faith-based…",
+      "category": "Cultuur",
+      "kind": "Artikel",
+      "author": "Adrian Horton",
+      "date": "2026-11-13",
+      "minutes": 10,
+      "url": "https://www.theguardian.com/film/2026/nov/13/heartland-review-jessica-chastain-netflix",
+      "source": "The Guardian",
+      "moods": [
+        "relax",
+        "learn"
+      ],
+      "interest_score": 3
     },
     {
       "id": "d6fcb54cb4332a2c",
