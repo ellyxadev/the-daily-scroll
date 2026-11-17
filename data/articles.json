@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17T18:51:42+01:00",
+  "last_updated": "2026-11-17T18:52:37+01:00",
   "articles": [
     {
       "id": "a53e973e0b9b3b25",
@@ -15,7 +15,12 @@
       "moods": [
         "learn",
         "relax"
-      ]
+      ],
+      "image_url": "https://i.guim.co.uk/img/media/43d717ba8c509f0f91f89b7cde0e34b47f78b839/51_0_3362_2690/master/3362.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3daaecca8392562196c30f9b01327f97",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "Direct the heat and minimise the moisture to save your pastry from a saturated bottom, says our panel of pie pros",
+      "media_checked": true
     },
     {
       "id": "9519e88899236990",
@@ -30,7 +35,12 @@
       "source": "The Guardian",
       "moods": [
         "learn"
-      ]
+      ],
+      "image_url": "https://i.guim.co.uk/img/media/50bbd93dc9e7da85ab3e5d3e3f88c68f3430e121/0_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=df183095559734822af9107a83e130af",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "If you discard the peels, skins, stalks and seeds when consuming fruit and vegetables you are missing out on a lot of value. Here’s what to incorporate into your diet – and what to avoid",
+      "media_checked": true
     },
     {
       "id": "8fdf94920c6b4285",
@@ -46,7 +56,12 @@
       "moods": [
         "learn",
         "relax"
-      ]
+      ],
+      "image_url": "https://i.guim.co.uk/img/media/c97aa4c83c4a04a6d2470821b54e79462c749d2e/0_1016_3516_2811/master/3516.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=c9966ea0367fdd204f399cbfc7c26e4c",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "The fad for plant-based junk food has run its course, but restaurants reflecting the centuries-long history of this cuisine still thrive, says Isobel Lewis",
+      "media_checked": true
     },
     {
       "id": "6f6280d4e252a64a",
@@ -63,7 +78,12 @@
         "relax",
         "learn"
       ],
-      "interest_score": 3
+      "interest_score": 3,
+      "image_url": "https://i.guim.co.uk/img/media/ff1f159cc9c4b46856f292a674e7b14d7cd2c12a/722_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctcmV2aWV3LTQucG5n&enable=upscale&s=0dfd237a006814c20813a834a8838bf5",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "The world’s longest running musical is brought to Broadway for the first time in a joyful new version",
+      "media_checked": true
     },
     {
       "id": "5b91a1d72117cc26",
@@ -80,7 +100,13 @@
         "relax",
         "learn"
       ],
-      "interest_score": 3
+      "interest_score": 3,
+      "image_url": "https://i.guim.co.uk/img/media/cde7c03e1f5a0dae3f87c3a6ed481d1fa73e6a58/502_0_2697_2160/master/2697.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=69161a101d76d7f13fa1b9d4c1d131a4",
+      "has_images": true,
+      "has_video": true,
+      "video_url": "https://www.youtube.com/watch?v=juChsS5KvhQ",
+      "publisher_excerpt": "Beloved for his savage takedowns and rhapsodic raves, the legendary Village Voice reviewer opens up in a candid new documentary",
+      "media_checked": true
     },
     {
       "id": "4d6ef5db6b63f205",
@@ -97,7 +123,13 @@
         "relax",
         "learn"
       ],
-      "interest_score": 3
+      "interest_score": 3,
+      "image_url": "https://i.guim.co.uk/img/media/58a55aa7a9f317f2719b5cf227ec9d26d57caf42/0_0_1486_1189/master/1486.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=78212749f514a6b7d9095b890175be40",
+      "has_images": true,
+      "has_video": true,
+      "video_url": "https://www.youtube.com/watch?v=0HWHhev-aag",
+      "publisher_excerpt": "As Sylvester Stallone’s Oscar-winning drama celebrates its 50th anniversary, I Play Rocky helps to further turn the boxing hero into the stuff of legend",
+      "media_checked": true
     },
     {
       "id": "24baf68da2c147d6",
@@ -112,7 +144,12 @@
       "source": "TechCrunch",
       "moods": [
         "learn"
-      ]
+      ],
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Networked-AI-swarm-with-glowing-nodes.png?resize=1200,600",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+      "media_checked": true
     },
     {
       "id": "ee58fa6aa923529e",
@@ -129,7 +166,12 @@
         "relax",
         "learn"
       ],
-      "interest_score": 5
+      "interest_score": 5,
+      "image_url": "https://i.guim.co.uk/img/media/a270362bac9b7b2e8ed906227be1edbd39616db1/0_0_1725_1381/master/1725.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e7d3ac02600d7af9190a8d0edce9dd3b",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "The latest in our series of writers picking their most comforting rewatches is a tribute to Curtis Hanson’s insightful 2000 comedy drama",
+      "media_checked": true
     },
     {
       "title": "Miaow! What your cat is really trying to tell you",
@@ -151,7 +193,12 @@
       "takeaway_nl": "Lola's gemiauw kan best een gerichte poging zijn om jouw aandacht te krijgen.",
       "summary_basis": "article",
       "image_present": true,
-      "video_present": false
+      "video_present": false,
+      "image_url": "https://i.guim.co.uk/img/media/b5ec2a7f5a472c5cde77b119c67e0fcbcade42de/0_0_3239_2592/master/3239.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5d4b75c6c577f101ae8d7d471843adab",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "They only make this noise when humans are around – and, as you may have noticed, it is one of the bossiest sounds in the animal kingdom …",
+      "media_checked": true
     },
     {
       "title": "Audible turns to AI to help users discover audiobooks",
@@ -173,7 +220,11 @@
       "summary_basis": "article",
       "image_present": true,
       "video_present": true,
-      "has_video": true
+      "has_video": false,
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Audible_Audio_Discovery_Still.jpeg?resize=1200,824",
+      "has_images": true,
+      "publisher_excerpt": "Audible's new AI-generated audio previews summarize a book's themes and what readers liked about it, in addition to playing the narrated sample.",
+      "media_checked": true
     },
     {
       "title": "Island is a new screen-time app that turns staying off your phone into a game",
@@ -194,7 +245,12 @@
       "takeaway_nl": "Wat als je minder scrollt om een virtuele boerderij te laten groeien in plaats van omdat je jezelf iets verbiedt?",
       "summary_basis": "article",
       "image_present": true,
-      "video_present": false
+      "video_present": false,
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/island-graphic.png?resize=1200,586",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "YC-backed Island turns screen time goals into a farming game, rewarding users with new crops, animals, and more when they stick to their limits.",
+      "media_checked": true
     },
     {
       "title": "Not ready for the cold and dark? Maybe you need a winter transition week",
@@ -216,7 +272,12 @@
       "takeaway_nl": "Een weekje winterrust klinkt zalig. Maar hoe geraak je daarna nog van onder je dekentje?",
       "summary_basis": "article",
       "image_present": true,
-      "video_present": false
+      "video_present": false,
+      "image_url": "https://i.guim.co.uk/img/media/4e964cc83d183a5b5bfafff668ed3a265408a595/250_0_4361_3489/master/4361.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=316c2cb1e0f7c057be5e802901b22e30",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "A psychologist has recommended we all take time for slowness and rest, to prepare ourselves for the coming months. It’s a nice idea, says Emma Beddington, but it may prove my downfall",
+      "media_checked": true
     },
     {
       "id": "32bedfa9a368bfb1",
