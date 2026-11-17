@@ -62,16 +62,48 @@ def timestamp(raw):
         try:return dt.datetime.fromisoformat(raw.replace('Z','+00:00')).astimezone(dt.timezone.utc)
         except Exception:return None
 
-def category_for(title,desc,kind):
-    content=(title+' '+desc).lower()
-    scores={k:sum(2 if word in title.lower() else 1 for word in keys if word in content) for k,keys in POSITIVE.items()}
-    if kind=='Columns':scores['Humor']+=1
-    if kind=='Technology':scores['AI']+=1
-    if kind=='Culture':scores['Cultuur']+=1
-    if kind=='Belgium':scores['Ontdekken']+=1
+def matches(text, term):
+    """Avoid matches such as 'ai ' inside 'pie' or 'chair'."""
+    return bool(re.search(r'(?<![a-z])' + re.escape(term.strip()) + r'(?![a-z])', text, re.I))
+
+def category_for(title, desc, kind):
+    # Headlines count more than excerpts. Broad words such as 'why' or
+    # generic 'technology' alone no longer qualify as interesting.
+    tl=title.lower()
+    dl=desc.lower()
+    scores={}
+    for category, words in POSITIVE.items():
+        scores[category]=sum((3 if matches(tl,word) else 1 if matches(dl,word) else 0)
+                             for word in words if word.strip() not in
+                             {'ai', 'cat', 'why', 'study', 'research', 'column', 'winter',
+                              'hobby','books','film','technology','health','woman'})
+    # Explicit AI terms only: a headline about apple pie is not AI news.
+    if any(matches(tl,word) for word in ['AI','artificial intelligence','ChatGPT','Claude','OpenAI','AI agents','generative AI']):
+        scores['AI']+=6
+    if any(matches(tl,word) for word in ['cat','cats','kitten','kittens']):
+        scores['Humor']+=3
+    if kind=='Columns' and any(matches(tl,w) for w in ['funny','humour','humor','absurd','awkward','laugh','ridiculous']):
+        scores['Humor']+=2
+    if kind=='Culture': scores['Cultuur']+=1
     category=max(scores,key=scores.get)
-    if scores[category]<1:return None
+    if scores[category]<3:return None
     return category
+
+def interest_score(title,desc,category,kind):
+    """Transparent heuristic, not an AI assessment of the full article."""
+    tl=title.lower()
+    score=0
+    if '?' in title:score+=2
+    if len(title)<105:score+=1
+    if kind=='Columns':score+=2
+    if category in ('Humor','Women','Ontdekken','Cultuur'):score+=2
+    if any(matches(tl,w) for w in ['why','how','what','surprising','strange','weird',
+            'funny','awkward','unexpected','secret','actually','really','grappig',
+            'waarom','hoe','vreemd']):score+=2
+    if any(matches(tl,w) for w in ['funding','valuation','series a','investors',
+            'stock','quarterly','regulation','war','military','death','trial',
+            'court','sentenced','earnings','merger']):score-=6
+    return score
 
 def parse_feed(raw,source,kind):
     tree=ET.fromstring(raw)
@@ -107,9 +139,11 @@ for source,url,kind in FEEDS:
             age=NOW-published.astimezone(dt.timezone.utc)
             if not dt.timedelta(0)<=age<=dt.timedelta(days=7):continue
             low=(title+' '+description).lower()
-            if any(term in low for term in NEGATIVE):continue
+            if any(matches(low,term) for term in NEGATIVE):continue
             cat=category_for(title,description,kind)
             if cat is None:continue
+            score=interest_score(title,description,cat,kind)
+            if score < 2:continue
             ident=hashlib.sha256(safe.encode()).hexdigest()[:16]
             if ident in articles:continue
             day=published.astimezone(TZ).date().isoformat()
@@ -117,7 +151,7 @@ for source,url,kind in FEEDS:
             excerpt=description[:240].rsplit(' ',1)[0].rstrip(' .,;:')+'…' if len(description)>240 else description
             if not excerpt:excerpt='Een nieuwe publicatie over '+cat.lower()+'. Klik om zelf te ontdekken of dit je aanspreekt.'
             mood={ 'Humor':['laugh','relax'], 'Women':['relate','learn'], 'AI':['learn'], 'Cultuur':['relax','learn'], 'Cosy':['relax'], 'Welzijn':['relate','relax'], 'Marketing':['learn'], 'Ontdekken':['learn'] }[cat]
-            new.append({'id':ident,'title':title[:180],'description':excerpt,'category':cat,'kind':'Column' if kind=='Columns' else 'Artikel','author':author[:100],'date':day,'minutes':max(2,min(12,round(len(description.split())/45)+3)),'url':safe,'source':source,'moods':mood})
+            new.append({'id':ident,'title':title[:180],'description':excerpt,'category':cat,'kind':'Column' if kind=='Columns' else 'Artikel','author':author[:100],'date':day,'minutes':max(2,min(12,round(len(description.split())/45)+3)),'url':safe,'source':source,'moods':mood,'interest_score':score})
             added+=1
         print(source,':',added,'new candidates')
     except Exception as e:
@@ -129,8 +163,9 @@ by_cat={}
 for item in new:
     by_cat.setdefault(item['category'],[]).append(item)
 for k,v in by_cat.items():
-    # At most 4 new entries of a topic per run (keeps AI/news from crowding out columns).
-    for item in v[:4]:articles[item['id']]=item
+    # Prioritise human-interest stories instead of whichever feed lists first.
+    for item in sorted(v,key=lambda x:x.get('interest_score',0),reverse=True)[:3]:
+        articles[item['id']]=item
 
 out={'last_updated':LOCAL.isoformat(timespec='seconds'),'articles':sorted(articles.values(),key=lambda x:(x['date'],x['id']),reverse=True)}
 if out['articles']:
