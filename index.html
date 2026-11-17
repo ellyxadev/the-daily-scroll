@@ -48,23 +48,23 @@ let state={cat:'Alles',saved:storage.get('saved',[]),read:storage.get('read',[])
 let selected=null;
 
 const editorial={
-'ae103ffb579357a1':{title:'Wat probeert je kat je eigenlijk te vertellen?',hook:'Waarom miauwt een kat zo opvallend tegen mensen? Misschien herken je Lola hierin.'},
-'9c56dc7f71416f42':{title:'Bestaat er een officiële overgangsweek naar de winter?',hook:'Wat als we gewoon een paar dagen mogen wennen aan kou, dekentjes en donkere avonden?'},
-'a1b0695e3ae7e054':{title:'Wat als minder scrollen een cosy game wordt?',hook:'Een app probeert minder schermtijd aantrekkelijk te maken door er een spel van te maken.'},
-'acee8b481f0ba8b2':{title:'Kan AI een luisterboek vinden dat echt bij je past?',hook:'Audible experimenteert met AI om luisterboeken te ontdekken. Wat verandert er voor luisteraars?'},
-'1b844110baf00562':{title:'Is ghosting ooit een goed idee?',hook:'Een columnist heeft een uitgesproken mening over wanneer iemand negeren wel of niet kan.'},
-'1f364f8b3c6f6ed4':{title:'Wat als je hobby helemaal geen prestatie hoeft te zijn?',hook:'Een persoonlijk verhaal over hoe schaatsen iemand hielp na een moeilijke periode.'}
+'ae103ffb579357a1':{title:'Wat probeert je kat je eigenlijk te vertellen?',hook:'Waarom miauwt een kat zo opvallend tegen mensen? Misschien herken je Lola hierin.',explain:'Dit korte stuk gaat over het miauwen van katten en de signalen die ze naar mensen sturen. De interessante vraag: waarom gebruiken katten geluid om met ons te communiceren?'},
+'9c56dc7f71416f42':{title:'Bestaat er een officiële overgangsweek naar de winter?',hook:'Wat als we gewoon een paar dagen mogen wennen aan kou, dekentjes en donkere avonden?',explain:'Emma Beddington kijkt met humor naar de overgang naar koude, donkere dagen. Het is een persoonlijke column over hoe je je op de winter instelt, niet een serieus stappenplan.'},
+'a1b0695e3ae7e054':{title:'Wat als minder scrollen een cosy game wordt?',hook:'Een app probeert minder schermtijd aantrekkelijk te maken door er een spel van te maken.',explain:'Island is een app die minder telefoongebruik probeert te belonen met spelelementen. In plaats van alleen een limiet op te leggen, wil het ontwerp offline blijven aantrekkelijker maken.'},
+'acee8b481f0ba8b2':{title:'Kan AI een luisterboek vinden dat echt bij je past?',hook:'Audible experimenteert met AI om luisterboeken te ontdekken. Wat verandert er voor luisteraars?',explain:'Het artikel beschrijft hoe Audible AI inzet om gebruikers luisterboeken te laten ontdekken. De interessante vraag is of slimme aanbevelingen je helpen zoeken zonder dat je opnieuw eindeloos blijft bladeren.'},
+'1b844110baf00562':{title:'Is ghosting ooit een goed idee?',hook:'Een columnist heeft een uitgesproken mening over wanneer iemand negeren wel of niet kan.',explain:'Dit is een opiniecolumn over ghosting, het plots verbreken van contact zonder uitleg. Het stuk verdedigt een scherpe persoonlijke stelling, geen algemene regel.'},
+'1f364f8b3c6f6ed4':{title:'Wat als je hobby helemaal geen prestatie hoeft te zijn?',hook:'Een persoonlijk verhaal over hoe schaatsen iemand hielp na een moeilijke periode.',explain:'Een persoonlijk verhaal over hoe een nieuwe bezigheid een verschil maakte tijdens een zware periode. Het gaat om de ervaring van één persoon, niet om een universele oplossing.'}
 };
 function storyIntro(s){
  const e=editorial[s.id]||{};
  const prefix={AI:'Wat kan dit in het dagelijks leven betekenen? ',Marketing:'Hoe merk je dit in een echte campagne? ',Humor:'Een luchtige observatie om even bij stil te staan: ',Women:'Een herkenbare vraag over verwachtingen: ',Ontdekken:'Een ontdekking om nieuwsgierig naar te zijn: ',Cultuur:'Wat speelt er in cultuur? ',Cosy:'Een fijne ontdekking: ',Welzijn:'Een persoonlijk verhaal: '}[s.category]||'Nieuw om te ontdekken: ';
- return {title:e.title||s.title,hook:e.hook||prefix+s.title,description:s.description||'De bron bevat geen korte samenvatting. Open het oorspronkelijke artikel om meer te weten.'};
+ return {title:e.title||s.title,hook:e.hook||prefix+s.title,description:e.explain||s.description||'De bron bevat geen korte samenvatting. Open het oorspronkelijke artikel om meer te weten.'};
 }
 
 function toggleSave(id){state.saved=state.saved.includes(id)?state.saved.filter(x=>x!==id):[...state.saved,id];storage.set('saved',state.saved);render();if(selected===id)syncModal()}
 function toggleRead(id){state.read=state.read.includes(id)?state.read.filter(x=>x!==id):[...state.read,id];storage.set('read',state.read);render();if(selected===id)syncModal()}
 function goodUrl(url){try{return ['https:','http:'].includes(new URL(url).protocol)}catch{return false}}
-function openArticle(id){let s=articles.find(x=>x.id===id);if(!s)return;selected=id;toggleReadIfNeeded(id);openModal(id)}
+function openArticle(id){let s=articles.find(x=>x.id===id);if(!s)return;selected=id;openModal(id)}
 function toggleReadIfNeeded(id){if(!state.read.includes(id)){state.read.push(id);storage.set('read',state.read);render()}}
 function render(){
  document.body.classList.toggle('dark',state.dark);$('#themeBtn').textContent=state.dark?'☼':'☾';
@@ -90,7 +90,7 @@ function syncModal(){if(!selected)return;$('#markRead').textContent=state.read.i
 function closeModal(){$('#overlay').classList.remove('show');selected=null}
 $('#search').oninput=e=>{state.search=e.target.value;render()};$('#mood').onchange=e=>{state.mood=e.target.value;render()};$('#status').onchange=e=>{state.status=e.target.value;render()};$('#themeBtn').onclick=()=>{state.dark=!state.dark;storage.set('dark',state.dark);render()};
 $('#resetBtn').onclick=()=>{if(confirm('Alle lokale bladwijzers, leesstatus en voorkeuren wissen?')){['saved','read','dark'].forEach(k=>localStorage.removeItem('ds_'+k));state.saved=[];state.read=[];state.dark=false;state.cat='Alles';state.search='';state.mood='all';state.status='all';$('#search').value='';$('#mood').value='all';$('#status').value='all';render()}};
-$('#closeModal').onclick=closeModal;$('#overlay').onclick=e=>{if(e.target.id==='overlay')closeModal()};document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});$('#markRead').onclick=()=>toggleRead(selected);$('#modalSave').onclick=()=>toggleSave(selected);
+$('#sourceLink').onclick=()=>{if(selected)toggleReadIfNeeded(selected)};$('#closeModal').onclick=closeModal;$('#overlay').onclick=e=>{if(e.target.id==='overlay')closeModal()};document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});$('#markRead').onclick=()=>toggleRead(selected);$('#modalSave').onclick=()=>toggleSave(selected);
 $('#dateLabel').textContent=new Intl.DateTimeFormat('nl-BE',{weekday:'long',day:'numeric',month:'long',year:'numeric'}).format(new Date());
 render();
 // Op GitHub Pages: laad automatisch het actuele archief. Als de HTML lokaal wordt geopend werkt de eerste editie offline.
