@@ -55,10 +55,38 @@ const editorial={
 '1b844110baf00562':{title:'Is ghosting ooit een goed idee?',hook:'Een columnist heeft een uitgesproken mening over wanneer iemand negeren wel of niet kan.',explain:'Dit is een opiniecolumn over ghosting, het plots verbreken van contact zonder uitleg. Het stuk verdedigt een scherpe persoonlijke stelling, geen algemene regel.'},
 '1f364f8b3c6f6ed4':{title:'Wat als je hobby helemaal geen prestatie hoeft te zijn?',hook:'Een persoonlijk verhaal over hoe schaatsen iemand hielp na een moeilijke periode.',explain:'Een persoonlijk verhaal over hoe een nieuwe bezigheid een verschil maakte tijdens een zware periode. Het gaat om de ervaring van één persoon, niet om een universele oplossing.'}
 };
+const dutchTeasers={
+'a53e973e0b9b3b25':{title:"Waarom blijft de bodem van je appeltaart toch altijd zompig?",hook:"Een culinair mysterie dat je misschien herkent. Wat doen bakkers anders?"},
+'9519e88899236990':{title:"Wat gooien we weg terwijl je het eigenlijk kunt opeten?",hook:"Van schillen tot stengels: hoeveel smaak en geld belandt onnodig in de vuilnisbak?"},
+'8fdf94920c6b4285':{title:"Is de hype rond vegan junkfood alweer voorbij?",hook:"Wat blijft er over wanneer een voedseltrend zijn glans verliest?"},
+'6f6280d4e252a64a':{title:"Een klassieke musical krijgt een verrassend nieuw leven",hook:"Wat gebeurt er als een bekende musical vanuit een ander perspectief wordt verteld?"},
+'5b91a1d72117cc26':{title:"Deze muziekcriticus hield zich bepaald niet in",hook:"Wat maakt een vlijmscherpe muziekrecensie zo onvergetelijk?"},
+'4d6ef5db6b63f205':{title:"Waarom blijft Rocky na vijftig jaar zo belangrijk?",hook:"Het verhaal van een film die een hele stad hielp definiëren."},
+'24baf68da2c147d6':{title:"Hoe wordt een AI-bedrijf in drie maanden een miljard waard?",hook:"Wat zegt zo'n torenhoge waardering eigenlijk over AI en de verwachtingen eromheen?"},
+'ee58fa6aa923529e':{title:"Kan één film je liefde voor verhalen veranderen?",hook:"Een schrijver vertelt waarom een oude favoriet zoveel voor hem betekent."},
+'32bedfa9a368bfb1':{title:"Wat als je niet precies weet wat je voelt?",hook:"Gevoelens benoemen lijkt eenvoudig. Waarom is dat soms zo lastig?"},
+'2a3f3310ea0c0ae8':{title:"Een nieuwe James Bond? Deze keuze verrast misschien",hook:"Wat betekent een nieuwe hoofdrolspeler voor zo'n iconische filmreeks?"},
+'1c735b770a65e0d8':{title:"Hoe zwaar is het leven achter de schermen van een popcarrière?",hook:"Een muzikante spreekt zich uit over geld, bekendheid en de muziekindustrie."},
+'06f25e622c8c99c5':{title:"Instagram en Amazon komen dichter bij elkaar",hook:"Wat verandert er als creators producten rechtstreeks in hun posts kunnen promoten?"},
+'02dfaf2567cdbdc2':{title:"Waarom is de muziek van GTA zo legendarisch geworden?",hook:"Een game kan je muzieksmaak veranderen. Hoe doet Grand Theft Auto dat?"},
+'eb93c7394ac0d7c2':{title:"Zelfs AI-topmensen zijn niet immuun voor oude trucs",hook:"Een verrassend verhaal over technologie, vertrouwen en menselijke fouten."},
+'b9c7f2afbff59066':{title:"Waarom kennen we sommige vrouwelijke kunstenaars zo weinig?",hook:"Een Amerikaanse impressionist krijgt opnieuw de aandacht die haar werk verdient."},
+'410d23d9d650f7b2':{title:"Wie zit er eigenlijk te wachten op een slimme koelkast?",hook:"Wanneer wordt een alledaags apparaat slimmer dan we nodig hebben?"},
+'2f6975cb098c4c92':{title:"Waarom praten we zo weinig over eenzaamheid bij vrouwen?",hook:"Eenzaamheid past niet altijd bij het beeld dat we van iemands leven hebben."},
+'cfc4e50daa0d065a':{title:"Waarom zien truien voor mannen en vrouwen er zo anders uit?",hook:"Eén virale video zet een opvallend verschil in kleding in de kijker."},
+'bae18bea92e3af53':{title:"Hoe werd een zwarte leren jas ineens een internetgrap?",hook:"Van rockicoon tot techwereld: één kledingstuk vertelt een vreemd cultuurverhaal."},
+'533b880e3b43f828':{title:"Wat draag je eigenlijk bij een leren rok?",hook:"Een luchtig modeartikel voor wie gewoon wat inspiratie zoekt."},
+'508a4bcd23265b65':{title:"Wonen naast een gezellige Engelse pub: droom of nachtmerrie?",hook:"Een fotoreeks van huizen op een opvallende locatie."},
+'298f3ccdcaadff35':{title:"Is deze Netflix-muziekthriller de moeite waard?",hook:"Een recensie bekijkt of de combinatie van countrymuziek en spanning werkt."},
+'d6fcb54cb4332a2c':{title:"Waarom verandert Maybelline zijn beroemde slogan?",hook:"Zelfs een iconische reclamezin blijft niet noodzakelijk voor altijd hetzelfde."},
+'abe56465b8aaacce':{title:"Wat helpt volgens een beautycolumn tegen winterdroogte?",hook:"Een column over huidverzorging, zonder dat je zelf een uitgebreide routine hoeft te hebben."},
+'9221f10b185f6f85':{title:"Kunnen experts eigenlijk vertalen wat je kat zegt?",hook:"Een journalist probeert uit te zoeken wat al dat gemiauw betekent."},
+'35ad844d164c5893':{title:"Dé modetrend van het seizoen is verrassend eenvoudig",hook:"Wat als de nieuwste fashiontrend gewoon een rok dragen is?"}
+};
 function storyIntro(s){
- const e=editorial[s.id]||{};
+ const e=editorial[s.id]||dutchTeasers[s.id]||{};
  const prefix={AI:'Wat kan dit in het dagelijks leven betekenen? ',Marketing:'Hoe merk je dit in een echte campagne? ',Humor:'Een luchtige observatie om even bij stil te staan: ',Women:'Een herkenbare vraag over verwachtingen: ',Ontdekken:'Een ontdekking om nieuwsgierig naar te zijn: ',Cultuur:'Wat speelt er in cultuur? ',Cosy:'Een fijne ontdekking: ',Welzijn:'Een persoonlijk verhaal: '}[s.category]||'Nieuw om te ontdekken: ';
- return {title:e.title||s.title,hook:e.hook||prefix+s.title,description:e.explain||s.description||'De bron bevat geen korte samenvatting. Open het oorspronkelijke artikel om meer te weten.'};
+ return {title:e.title||({AI:'Welke AI-ontwikkeling verdient je aandacht?',Marketing:'Wat verandert er in de marketingwereld?',Humor:'Zin in een onverwachte glimlach?',Women:'Welke verwachtingen nemen we zomaar aan?',Ontdekken:'Wist je dat dit ook een onderwerp is?',Cultuur:'Wat gebeurt er achter de schermen?',Cosy:'Een kleine ontdekking voor tussendoor',Welzijn:'Een andere blik op het dagelijks leven'}[s.category]||'Iets nieuws om te ontdekken'),hook:e.hook||prefix+'Een recente publicatie bij '+(s.source||'de bron')+'. Ontdek hieronder de oorspronkelijke titel.',description:e.explain||s.description||'De bron bevat geen korte samenvatting. Open het oorspronkelijke artikel om meer te weten.'};
 }
 
 function toggleSave(id){state.saved=state.saved.includes(id)?state.saved.filter(x=>x!==id):[...state.saved,id];storage.set('saved',state.saved);render();if(selected===id)syncModal()}
