@@ -198,7 +198,13 @@
       "has_images": true,
       "has_video": false,
       "publisher_excerpt": "They only make this noise when humans are around – and, as you may have noticed, it is one of the bossiest sounds in the animal kingdom …",
-      "media_checked": true
+      "media_checked": true,
+      "related_links": [
+        {
+          "title": "Het wetenschappelijke kattenonderzoek",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0003347226002940"
+        }
+      ]
     },
     {
       "title": "Audible turns to AI to help users discover audiobooks",
@@ -224,7 +230,14 @@
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Audible_Audio_Discovery_Still.jpeg?resize=1200,824",
       "has_images": true,
       "publisher_excerpt": "Audible's new AI-generated audio previews summarize a book's themes and what readers liked about it, in addition to playing the narrated sample.",
-      "media_checked": true
+      "media_checked": true,
+      "related_links": [
+        {
+          "title": "Video: Audible toont de nieuwe functie",
+          "url": "https://www.youtube.com/embed/1HF2kJ_fn5E?feature=oembed"
+        }
+      ],
+      "video_url": "https://www.youtube.com/embed/1HF2kJ_fn5E?feature=oembed"
     },
     {
       "title": "Island is a new screen-time app that turns staying off your phone into a game",
