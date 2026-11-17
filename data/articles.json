@@ -1,6 +1,82 @@
 {
-  "last_updated": "2026-11-17T09:00:00+01:00",
+  "last_updated": "2026-11-17T14:44:59+01:00",
   "articles": [
+    {
+      "id": "a53e973e0b9b3b25",
+      "title": "Help! Why does my apple pie always have a soggy base? | Kitchen aide",
+      "description": "Direct the heat and minimise the moisture to save your pastry from a saturated bottom, says our panel of pie pros Why does the pastry base of my apple pie always come out soggy? What am I doing wrong? Sophie, by email “The very first thing…",
+      "category": "AI",
+      "kind": "Artikel",
+      "author": "Anna Berrill",
+      "date": "2026-11-17",
+      "minutes": 7,
+      "url": "https://www.theguardian.com/food/2026/nov/17/kitchen-aide-apple-pie-soggy-base-baking-advice",
+      "source": "The Guardian",
+      "moods": [
+        "learn"
+      ]
+    },
+    {
+      "id": "9519e88899236990",
+      "title": "The root-to-tip revolution! An A-Z of how to eat plants in full – for extra flavour, fibre and savings",
+      "description": "If you discard the peels, skins, stalks and seeds when consuming fruit and vegetables you are missing out on a lot of value. Here’s what to incorporate into your diet – and what to avoid Do you peel your potatoes, deseed your squash and…",
+      "category": "Ontdekken",
+      "kind": "Artikel",
+      "author": "Rachel Dixon",
+      "date": "2026-11-17",
+      "minutes": 6,
+      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/17/root-to-tip-revolution-a-to-z-eat-plants-full-flavour-fibre-savings",
+      "source": "The Guardian",
+      "moods": [
+        "learn"
+      ]
+    },
+    {
+      "id": "8fdf94920c6b4285",
+      "title": "The corporate boom in vegan food is dead. Long live real plant-based cooking | Isobel Lewis",
+      "description": "The fad for plant-based junk food has run its course, but restaurants reflecting the centuries-long history of this cuisine still thrive Have you ever gone to make a restaurant reservation and been met with a Google Maps listing bearing…",
+      "category": "Humor",
+      "kind": "Artikel",
+      "author": "Isobel Lewis",
+      "date": "2026-11-17",
+      "minutes": 8,
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/17/corporate-boom-vegan-food-plant-based-cooking-restaurants",
+      "source": "The Guardian",
+      "moods": [
+        "laugh",
+        "relax"
+      ]
+    },
+    {
+      "id": "3d0520c4e5bd9fd5",
+      "title": "Automated warfare is already here. Now governments must restrain it | Helen Clark",
+      "description": "AI systems can allow militaries to find and annihilate targets within seconds. A meaningful treaty must prioritise human control – and accountability Helen Clark is former head of the UN Development Programme and former prime minister of…",
+      "category": "AI",
+      "kind": "Column",
+      "author": "Helen Clark",
+      "date": "2026-11-17",
+      "minutes": 6,
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/17/automated-warfare-here-governments-restrain-ai-militaries-treaty",
+      "source": "The Guardian",
+      "moods": [
+        "learn"
+      ]
+    },
+    {
+      "id": "24baf68da2c147d6",
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "description": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+      "category": "AI",
+      "kind": "Artikel",
+      "author": "Julie Bort",
+      "date": "2026-11-17",
+      "minutes": 4,
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "source": "TechCrunch",
+      "moods": [
+        "learn"
+      ]
+    },
     {
       "title": "Miaow! What your cat is really trying to tell you",
       "description": "Waarom miauwen katten zo overtuigend tegen ons? Een kort en grappig stukje over kattenlogica.",
@@ -17,6 +93,38 @@
         "relax"
       ],
       "id": "ae103ffb579357a1"
+    },
+    {
+      "title": "Audible turns to AI to help users discover audiobooks",
+      "description": "Een nieuwe manier om luisterboeken te ontdekken met AI. Interessant als je graag afwisselt tussen luisteren en lezen.",
+      "category": "AI",
+      "kind": "AI & cultuur",
+      "author": "Sarah Perez",
+      "date": "2026-11-16",
+      "minutes": 4,
+      "url": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
+      "source": "TechCrunch",
+      "moods": [
+        "learn",
+        "relax"
+      ],
+      "id": "acee8b481f0ba8b2"
+    },
+    {
+      "title": "Island is a new screen-time app that turns staying off your phone into a game",
+      "description": "Een verrassend toepasselijk idee: minder scrollen door een virtuele boerderij te laten groeien.",
+      "category": "AI",
+      "kind": "Tech & lifestyle",
+      "author": "Sarah Perez",
+      "date": "2026-11-16",
+      "minutes": 5,
+      "url": "https://techcrunch.com/2026/11/16/island-is-a-new-screen-time-app-that-turns-staying-off-your-phone-into-a-game/",
+      "source": "TechCrunch",
+      "moods": [
+        "learn",
+        "relax"
+      ],
+      "id": "a1b0695e3ae7e054"
     },
     {
       "title": "Not ready for the cold and dark? Maybe you need a winter transition week",
@@ -36,52 +144,51 @@
       "id": "9c56dc7f71416f42"
     },
     {
-      "title": "Island is a new screen-time app that turns staying off your phone into a game",
-      "description": "Een verrassend toepasselijk idee: minder scrollen door een virtuele boerderij te laten groeien.",
-      "category": "AI",
-      "kind": "Tech & lifestyle",
-      "author": "Sarah Perez",
+      "id": "891181d7ac4a8061",
+      "title": "Russell Brand: Open Secret review – ​a real tribute to the journalists and victims who brought him to justice",
+      "description": "This Netflix documentary offers a fascinating look at how Brand’s behaviour wasn’t simply tolerated; it was actively celebrated Last week was quite the week. Coming within a few days of each other, the sentencing of Russell Brand and the…",
+      "category": "Cultuur",
+      "kind": "Artikel",
+      "author": "Stuart Heritage",
       "date": "2026-11-16",
-      "minutes": 5,
-      "url": "https://techcrunch.com/2026/11/16/island-is-a-new-screen-time-app-that-turns-staying-off-your-phone-into-a-game/",
-      "source": "TechCrunch",
-      "moods": [
-        "learn",
-        "relax"
-      ],
-      "id": "a1b0695e3ae7e054"
-    },
-    {
-      "title": "Audible turns to AI to help users discover audiobooks",
-      "description": "Een nieuwe manier om luisterboeken te ontdekken met AI. Interessant als je graag afwisselt tussen luisteren en lezen.",
-      "category": "AI",
-      "kind": "AI & cultuur",
-      "author": "Sarah Perez",
-      "date": "2026-11-16",
-      "minutes": 4,
-      "url": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
-      "source": "TechCrunch",
-      "moods": [
-        "learn",
-        "relax"
-      ],
-      "id": "acee8b481f0ba8b2"
-    },
-    {
-      "title": "The hill I will die on: There is only one acceptable occasion on which to ghost someone – when you die",
-      "description": "Een scherp geformuleerde column over datingapps, ghosting en elkaar gewoon eerlijk antwoorden.",
-      "category": "Women",
-      "kind": "Opiniecolumn",
-      "author": "Temi Wilkey",
-      "date": "2026-11-16",
-      "minutes": 5,
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/16/hill-i-will-die-on-dating-apps-bias-ghosting-romance",
+      "minutes": 7,
+      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/16/russell-brand-open-secret-review-a-real-tribute-to-the-journalists-and-victims-who-brought-him-to-justice",
       "source": "The Guardian",
       "moods": [
-        "relate",
+        "relax",
         "learn"
-      ],
-      "id": "1b844110baf00562"
+      ]
+    },
+    {
+      "id": "32bedfa9a368bfb1",
+      "title": "Naming your feelings can be harder than you think. This simple tool can help",
+      "description": "About 10% of people have significant trouble identifying their emotions – which makes it harder to know what to do about them Naming emotions is a core skill that most people develop as children, and it might seem like second nature. But…",
+      "category": "Ontdekken",
+      "kind": "Artikel",
+      "author": "Emma Dibdin",
+      "date": "2026-11-16",
+      "minutes": 5,
+      "url": "https://www.theguardian.com/wellness/2026/nov/16/naming-your-feelings-mental-health",
+      "source": "The Guardian",
+      "moods": [
+        "learn"
+      ]
+    },
+    {
+      "id": "2a3f3310ea0c0ae8",
+      "title": "New James Bond announced ... and the name’s Pattinson, Robert Pattinson",
+      "description": "Daniel Craig’s successor in the franchise is confirmed after a long casting process, making Pattinson the seventh actor to play the role of 007 • Share your thoughts on the casting • Peter Bradshaw: Robert Pattinson’s gift for cool…",
+      "category": "Cultuur",
+      "kind": "Artikel",
+      "author": "Andrew Pulver and Catherine Shoard",
+      "date": "2026-11-16",
+      "minutes": 6,
+      "url": "https://www.theguardian.com/film/2026/nov/16/new-james-bond-announced-and-the-names-pattinson-robert-pattinson",
+      "source": "The Guardian",
+      "moods": [
+        "relax",
+        "learn"
+      ]
     },
     {
       "title": "The one change that worked: I was burnt out and lonely – until I started ice skating",
@@ -100,6 +207,115 @@
       "id": "1f364f8b3c6f6ed4"
     },
     {
+      "id": "1c735b770a65e0d8",
+      "title": "‘I have to sell my bum on OnlyFans to go on tour’: Kate Nash on fame, feminism and fighting the music business",
+      "description": "She threw a (metaphorical) brick through Spotify’s window and exposed industry failings with her ‘Butts for Tour Buses’ campaign. Now the singer is embracing her Irish roots with her new album’s fighting spirit Kate Nash was standing on a…",
+      "category": "Cultuur",
+      "kind": "Artikel",
+      "author": "Fiona Sturges",
+      "date": "2026-11-16",
+      "minutes": 7,
+      "url": "https://www.theguardian.com/music/2026/nov/16/kate-nash-interview-cailin-spotify-bum-onlyfans",
+      "source": "The Guardian",
+      "moods": [
+        "relax",
+        "learn"
+      ]
+    },
+    {
+      "title": "The hill I will die on: There is only one acceptable occasion on which to ghost someone – when you die",
+      "description": "Een scherp geformuleerde column over datingapps, ghosting en elkaar gewoon eerlijk antwoorden.",
+      "category": "Women",
+      "kind": "Opiniecolumn",
+      "author": "Temi Wilkey",
+      "date": "2026-11-16",
+      "minutes": 5,
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/16/hill-i-will-die-on-dating-apps-bias-ghosting-romance",
+      "source": "The Guardian",
+      "moods": [
+        "relate",
+        "learn"
+      ],
+      "id": "1b844110baf00562"
+    },
+    {
+      "id": "06f25e622c8c99c5",
+      "title": "Instagram now lets creators add Amazon affiliate links in reels and feed posts",
+      "description": "While creators have long shared Amazon affiliate links through stories, DMs, and their bios, the new integration brings them to new parts of the app.",
+      "category": "Marketing",
+      "kind": "Artikel",
+      "author": "Aisha Malik",
+      "date": "2026-11-16",
+      "minutes": 4,
+      "url": "https://techcrunch.com/2026/11/16/instagram-now-lets-creators-add-amazon-affiliate-links-in-reels-and-feed-posts/",
+      "source": "TechCrunch",
+      "moods": [
+        "learn"
+      ]
+    },
+    {
+      "id": "02dfaf2567cdbdc2",
+      "title": "Killer tunes: how Grand Theft Auto conquered the music world",
+      "description": "Featuring hundreds of songs from the hippest real-world artists, the radio stations in Rockstar’s crime sagas are as hotly anticipated as the storylines. Contributors including Flying Lotus, Wavves and Nite Jewel reflect on the…",
+      "category": "Cultuur",
+      "kind": "Artikel",
+      "author": "Lewis Gordon",
+      "date": "2026-11-16",
+      "minutes": 9,
+      "url": "https://www.theguardian.com/games/2026/nov/16/auto-tunes-music-grand-theft-auto-conquered-zeitgeist-gta",
+      "source": "The Guardian",
+      "moods": [
+        "relax",
+        "learn"
+      ]
+    },
+    {
+      "id": "eb93c7394ac0d7c2",
+      "title": "‘Jensen Huang lost his mind’: how AI’s smartest man fell for the world’s oldest trick",
+      "description": "Jensen Huang’s affair with a suspected spy is Silicon Valley’s worst nightmare come true The resignation this week of Nvidia’s founder and CEO Jensen Huang is one of the most astonishing corporate scandals in memory, featuring allegations…",
+      "category": "AI",
+      "kind": "Artikel",
+      "author": "Nick Robins-Early",
+      "date": "2026-11-15",
+      "minutes": 6,
+      "url": "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
+      "source": "The Guardian",
+      "moods": [
+        "learn"
+      ]
+    },
+    {
+      "id": "b9c7f2afbff59066",
+      "title": "Reclaiming Mary Cassatt: putting overlooked American artist back at heart of impressionism",
+      "description": "New exhibition restores painter’s place as leading figure in French movement that revolutionised art As a painter, friend, and collaborator of Edgar Degas, who exhibited with impressionist artists including Claude Monet and Camille…",
+      "category": "Women",
+      "kind": "Artikel",
+      "author": "Kim Willsher in Paris",
+      "date": "2026-11-15",
+      "minutes": 5,
+      "url": "https://www.theguardian.com/artanddesign/2026/nov/15/reclaiming-mary-cassatt-putting-overlooked-american-artist-back-at-heart-of-impressionism",
+      "source": "The Guardian",
+      "moods": [
+        "relate",
+        "learn"
+      ]
+    },
+    {
+      "id": "410d23d9d650f7b2",
+      "title": "Why would anyone want a smart fridge? | Dave Schilling",
+      "description": "After a hack in France, internet-enabled appliances are looking even less appealing – especially before the holidays We are deep into the holiday season now, past Halloween and a mere two weeks away from American Thanksgiving. I’ve already…",
+      "category": "Ontdekken",
+      "kind": "Column",
+      "author": "Dave Schilling",
+      "date": "2026-11-15",
+      "minutes": 5,
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/15/smart-fridge-internet-appliance",
+      "source": "The Guardian",
+      "moods": [
+        "learn"
+      ]
+    },
+    {
       "title": "Why don’t we hear of the “epidemic” of women’s loneliness?",
       "description": "Een genuanceerd artikel over hoe eenzaamheid bij vrouwen soms verborgen blijft, zelfs als ze mensen om zich heen hebben.",
       "category": "Women",
@@ -114,6 +330,132 @@
         "learn"
       ],
       "id": "2f6975cb098c4c92"
+    },
+    {
+      "id": "cfc4e50daa0d065a",
+      "title": "‘Pretty weird’: How a viral video shows a striking discrepancy in men and women’s knitwear",
+      "description": "Men are routinely getting more wool for their money – are women really paying a pink tax when they buy a jumper? • Don’t get Fashion Statement delivered to your inbox? Sign up here It’s officially cosy season. But before you treat yourself…",
+      "category": "Women",
+      "kind": "Artikel",
+      "author": "Chloe Mac Donnell",
+      "date": "2026-11-13",
+      "minutes": 5,
+      "url": "https://www.theguardian.com/fashion/2026/nov/12/wool-pricing-natural-fibre-menswear-knitwear-women",
+      "source": "The Guardian",
+      "moods": [
+        "relate",
+        "learn"
+      ]
+    },
+    {
+      "id": "bae18bea92e3af53",
+      "title": "Marlon Brando cool to Jensen Huang joke: how the black leather jacket became a meme",
+      "description": "Once the ultimate symbol of Hollywood rebellion, the former Nvidia chief’s signature look is now being mocked as a midlife crisis cliche For nearly two decades a black leather jacket has been a key part of Jensen Huang’s look. Now it has…",
+      "category": "Humor",
+      "kind": "Artikel",
+      "author": "Chloe Mac Donnell",
+      "date": "2026-11-13",
+      "minutes": 5,
+      "url": "https://www.theguardian.com/technology/2026/nov/13/marlon-brando-cool-jensen-huang-joke-black-leather-jacket-nvidia",
+      "source": "The Guardian",
+      "moods": [
+        "laugh",
+        "relax"
+      ]
+    },
+    {
+      "id": "533b880e3b43f828",
+      "title": "What to wear with a leather skirt",
+      "description": "Pairing these statement pieces can be tricky. For a surprisingly easy twist, try contrasting fabrics – a denim shirt, a cosy knit – alongside pared-back accessories Continue reading...",
+      "category": "Cosy",
+      "kind": "Artikel",
+      "author": "Melanie Wilkinson",
+      "date": "2026-11-13",
+      "minutes": 4,
+      "url": "https://www.theguardian.com/fashion/gallery/2026/nov/13/what-to-wear-with-a-leather-skirt",
+      "source": "The Guardian",
+      "moods": [
+        "relax"
+      ]
+    },
+    {
+      "id": "508a4bcd23265b65",
+      "title": "Homes for sale close to cosy pubs in England – in pictures",
+      "description": "From a Cornish cottage not far from one that played a role in the TV series Doc Martin to a duplex in central London perched above a historic one Continue reading...",
+      "category": "Cosy",
+      "kind": "Artikel",
+      "author": "Anna White",
+      "date": "2026-11-13",
+      "minutes": 4,
+      "url": "https://www.theguardian.com/money/gallery/2026/nov/13/homes-for-sale-close-to-cosy-pubs-in-england-in-pictures",
+      "source": "The Guardian",
+      "moods": [
+        "relax"
+      ]
+    },
+    {
+      "id": "d6fcb54cb4332a2c",
+      "title": "Maybe it’s a new tagline. Maybe it’s more punctuation. Maybelline’s 35-year-old slogan has an update",
+      "description": "First introduced in 1991, ‘Maybe she’s born with it’ is out the door – but is the new slogan a glow-up? Alyx, I hear a certain makeup brand has updated its tagline. Why is this a big deal? The jingle that has been burned into the minds of…",
+      "category": "Women",
+      "kind": "Artikel",
+      "author": "Alyx Gorman explains it to Emma Joyce",
+      "date": "2026-11-11",
+      "minutes": 6,
+      "url": "https://www.theguardian.com/fashion/2026/nov/11/maybelline-new-tagline-maybe-quote-slogan-new-update",
+      "source": "The Guardian",
+      "moods": [
+        "relate",
+        "learn"
+      ]
+    },
+    {
+      "id": "abe56465b8aaacce",
+      "title": "Sali Hughes on beauty: a lotion to cure autumn dryness – and relieve eczema sufferers’ sore skin",
+      "description": "Bioderma’s new eczema lotion will be comforting for anyone with dry skin. Plus another brilliant problem solving mosituriser I spent much of my childhood basted in crude, heavy-duty emollient creams and grim bath oils. But few patients are…",
+      "category": "Women",
+      "kind": "Artikel",
+      "author": "Sali Hughes",
+      "date": "2026-11-11",
+      "minutes": 6,
+      "url": "https://www.theguardian.com/fashion/2026/nov/11/sali-hughes-on-beauty-dryness-eczema-sore-skin-bioderma",
+      "source": "The Guardian",
+      "moods": [
+        "relate",
+        "learn"
+      ]
+    },
+    {
+      "id": "9221f10b185f6f85",
+      "title": "What is my cat saying? I asked experts to translate",
+      "description": "Slow blinking and trilling are some of the ways felines show affection – but experts say to ‘read the whole cat in context’ I talk to my cat, Blue, constantly. I say things like, “You’re my little baby,” and “Wow, good jump,” and “Can you…",
+      "category": "Humor",
+      "kind": "Artikel",
+      "author": "Madeleine Aggeler",
+      "date": "2026-11-11",
+      "minutes": 5,
+      "url": "https://www.theguardian.com/wellness/2026/nov/11/cat-language-behavior-translate",
+      "source": "The Guardian",
+      "moods": [
+        "laugh",
+        "relax"
+      ]
+    },
+    {
+      "id": "35ad844d164c5893",
+      "title": "Jess Cartner-Morley on fashion: this season’s big idea? Wear a skirt. It’s that simple",
+      "description": "All you need to look on-trend this autumn is a skirt, but instead of going shopping, check what you already have in your wardrobe I go to a lot of fashion shows, and sometimes they are gorgeous and sometimes they are ugly. Sometimes they…",
+      "category": "Humor",
+      "kind": "Artikel",
+      "author": "Jess Cartner-Morley",
+      "date": "2026-11-11",
+      "minutes": 8,
+      "url": "https://www.theguardian.com/fashion/2026/nov/11/jess-cartner-morley-on-fashion-fashions-big-idea-this-season-wear-a-skirt",
+      "source": "The Guardian",
+      "moods": [
+        "laugh",
+        "relax"
+      ]
     }
   ]
 }
