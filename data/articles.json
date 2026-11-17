@@ -172,7 +172,8 @@
       "takeaway_nl": "AI kan je helpen een boek te kiezen, maar vertelt het ook waarom sommige lezers het níét goed vonden?",
       "summary_basis": "article",
       "image_present": true,
-      "video_present": true
+      "video_present": true,
+      "has_video": true
     },
     {
       "title": "Island is a new screen-time app that turns staying off your phone into a game",
