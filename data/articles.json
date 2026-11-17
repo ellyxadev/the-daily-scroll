@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17T14:44:59+01:00",
+  "last_updated": "2026-11-17T18:42:28+01:00",
   "articles": [
     {
       "id": "a53e973e0b9b3b25",
@@ -48,6 +48,40 @@
       ]
     },
     {
+      "id": "5b91a1d72117cc26",
+      "title": "‘Mick Jagger should fold up his penis and go home’: the caustic genius of music critic Robert Christgau",
+      "description": "Beloved for his savage takedowns and rhapsodic raves, the legendary Village Voice reviewer opens up in a candid new documentary Rows and rows of CDs, albums, cassettes and books creak and groan on shelves that snake around the walls and…",
+      "category": "Cultuur",
+      "kind": "Artikel",
+      "author": "Jim Farber",
+      "date": "2026-11-17",
+      "minutes": 7,
+      "url": "https://www.theguardian.com/film/2026/nov/17/music-critic-robert-christgau-documentary",
+      "source": "The Guardian",
+      "moods": [
+        "relax",
+        "learn"
+      ],
+      "interest_score": 3
+    },
+    {
+      "id": "4d6ef5db6b63f205",
+      "title": "Rocky is Philadelphia’s founding myth – and 50 years later, we’re still telling it",
+      "description": "As Sylvester Stallone’s Oscar-winning drama celebrates its 50th anniversary, I Play Rocky helps to further turn the boxing hero into the stuff of legend The story behind the making of Rocky has always sounded uncannily like Rocky itself…",
+      "category": "Cultuur",
+      "kind": "Artikel",
+      "author": "Bryan Armen Graham",
+      "date": "2026-11-17",
+      "minutes": 8,
+      "url": "https://www.theguardian.com/film/2026/nov/17/rocky-philadelphia-founding-myth-50-years-later",
+      "source": "The Guardian",
+      "moods": [
+        "relax",
+        "learn"
+      ],
+      "interest_score": 3
+    },
+    {
       "id": "3d0520c4e5bd9fd5",
       "title": "Automated warfare is already here. Now governments must restrain it | Helen Clark",
       "description": "AI systems can allow militaries to find and annihilate targets within seconds. A meaningful treaty must prioritise human control – and accountability Helen Clark is former head of the UN Development Programme and former prime minister of…",
@@ -76,6 +110,23 @@
       "moods": [
         "learn"
       ]
+    },
+    {
+      "id": "ee58fa6aa923529e",
+      "title": "‘Partly the movie’s fault I’m a writer at all’: why Wonder Boys is my feelgood movie",
+      "description": "The latest in our series of writers picking their most comforting rewatches is a tribute to Curtis Hanson’s insightful 2000 comedy drama I’m allergic to movies and books about writers. Washed-up novelists, aspiring screenwriters, creative…",
+      "category": "Cultuur",
+      "kind": "Artikel",
+      "author": "Duncan Riddell",
+      "date": "2026-11-16",
+      "minutes": 9,
+      "url": "https://www.theguardian.com/film/2026/nov/16/wonder-boys-curtis-hanson-feelgood-movie",
+      "source": "The Guardian",
+      "moods": [
+        "relax",
+        "learn"
+      ],
+      "interest_score": 5
     },
     {
       "title": "Miaow! What your cat is really trying to tell you",
