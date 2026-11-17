@@ -5,7 +5,7 @@
       "id": "a53e973e0b9b3b25",
       "title": "Help! Why does my apple pie always have a soggy base? | Kitchen aide",
       "description": "Direct the heat and minimise the moisture to save your pastry from a saturated bottom, says our panel of pie pros Why does the pastry base of my apple pie always come out soggy? What am I doing wrong? Sophie, by email “The very first thing…",
-      "category": "AI",
+      "category": "Ontdekken",
       "kind": "Artikel",
       "author": "Anna Berrill",
       "date": "2026-11-17",
@@ -13,7 +13,8 @@
       "url": "https://www.theguardian.com/food/2026/nov/17/kitchen-aide-apple-pie-soggy-base-baking-advice",
       "source": "The Guardian",
       "moods": [
-        "learn"
+        "learn",
+        "relax"
       ]
     },
     {
@@ -35,7 +36,7 @@
       "id": "8fdf94920c6b4285",
       "title": "The corporate boom in vegan food is dead. Long live real plant-based cooking | Isobel Lewis",
       "description": "The fad for plant-based junk food has run its course, but restaurants reflecting the centuries-long history of this cuisine still thrive Have you ever gone to make a restaurant reservation and been met with a Google Maps listing bearing…",
-      "category": "Humor",
+      "category": "Ontdekken",
       "kind": "Artikel",
       "author": "Isobel Lewis",
       "date": "2026-11-17",
@@ -43,7 +44,7 @@
       "url": "https://www.theguardian.com/commentisfree/2026/nov/17/corporate-boom-vegan-food-plant-based-cooking-restaurants",
       "source": "The Guardian",
       "moods": [
-        "laugh",
+        "learn",
         "relax"
       ]
     },
@@ -97,21 +98,6 @@
         "learn"
       ],
       "interest_score": 3
-    },
-    {
-      "id": "3d0520c4e5bd9fd5",
-      "title": "Automated warfare is already here. Now governments must restrain it | Helen Clark",
-      "description": "AI systems can allow militaries to find and annihilate targets within seconds. A meaningful treaty must prioritise human control – and accountability Helen Clark is former head of the UN Development Programme and former prime minister of…",
-      "category": "AI",
-      "kind": "Column",
-      "author": "Helen Clark",
-      "date": "2026-11-17",
-      "minutes": 6,
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/17/automated-warfare-here-governments-restrain-ai-militaries-treaty",
-      "source": "The Guardian",
-      "moods": [
-        "learn"
-      ]
     },
     {
       "id": "24baf68da2c147d6",
@@ -181,7 +167,7 @@
     {
       "title": "Island is a new screen-time app that turns staying off your phone into a game",
       "description": "Een verrassend toepasselijk idee: minder scrollen door een virtuele boerderij te laten groeien.",
-      "category": "AI",
+      "category": "Ontdekken",
       "kind": "Tech & lifestyle",
       "author": "Sarah Perez",
       "date": "2026-11-16",
@@ -210,22 +196,6 @@
         "relate"
       ],
       "id": "9c56dc7f71416f42"
-    },
-    {
-      "id": "891181d7ac4a8061",
-      "title": "Russell Brand: Open Secret review – ​a real tribute to the journalists and victims who brought him to justice",
-      "description": "This Netflix documentary offers a fascinating look at how Brand’s behaviour wasn’t simply tolerated; it was actively celebrated Last week was quite the week. Coming within a few days of each other, the sentencing of Russell Brand and the…",
-      "category": "Cultuur",
-      "kind": "Artikel",
-      "author": "Stuart Heritage",
-      "date": "2026-11-16",
-      "minutes": 7,
-      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/16/russell-brand-open-secret-review-a-real-tribute-to-the-journalists-and-victims-who-brought-him-to-justice",
-      "source": "The Guardian",
-      "moods": [
-        "relax",
-        "learn"
-      ]
     },
     {
       "id": "32bedfa9a368bfb1",
