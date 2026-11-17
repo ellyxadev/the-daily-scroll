@@ -1,0 +1,119 @@
+{
+  "last_updated": "2026-11-17T09:00:00+01:00",
+  "articles": [
+    {
+      "title": "Miaow! What your cat is really trying to tell you",
+      "description": "Waarom miauwen katten zo overtuigend tegen ons? Een kort en grappig stukje over kattenlogica.",
+      "category": "Humor",
+      "kind": "Kort artikel",
+      "author": "The Guardian · Pass notes",
+      "date": "2026-11-16",
+      "minutes": 3,
+      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/16/miaow-what-your-cat-is-really-trying-to-tell-you",
+      "source": "The Guardian",
+      "moods": [
+        "laugh",
+        "learn",
+        "relax"
+      ],
+      "id": "ae103ffb579357a1"
+    },
+    {
+      "title": "Not ready for the cold and dark? Maybe you need a winter transition week",
+      "description": "Een licht ironische column over dekentjes, thee en hoe gezellig thuisblijven gevaarlijk aantrekkelijk wordt.",
+      "category": "Humor",
+      "kind": "Column",
+      "author": "Emma Beddington",
+      "date": "2026-11-16",
+      "minutes": 5,
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/16/not-ready-for-the-cold-and-dark-maybe-you-need-a-winter-transition-week",
+      "source": "The Guardian",
+      "moods": [
+        "laugh",
+        "relax",
+        "relate"
+      ],
+      "id": "9c56dc7f71416f42"
+    },
+    {
+      "title": "Island is a new screen-time app that turns staying off your phone into a game",
+      "description": "Een verrassend toepasselijk idee: minder scrollen door een virtuele boerderij te laten groeien.",
+      "category": "AI",
+      "kind": "Tech & lifestyle",
+      "author": "Sarah Perez",
+      "date": "2026-11-16",
+      "minutes": 5,
+      "url": "https://techcrunch.com/2026/11/16/island-is-a-new-screen-time-app-that-turns-staying-off-your-phone-into-a-game/",
+      "source": "TechCrunch",
+      "moods": [
+        "learn",
+        "relax"
+      ],
+      "id": "a1b0695e3ae7e054"
+    },
+    {
+      "title": "Audible turns to AI to help users discover audiobooks",
+      "description": "Een nieuwe manier om luisterboeken te ontdekken met AI. Interessant als je graag afwisselt tussen luisteren en lezen.",
+      "category": "AI",
+      "kind": "AI & cultuur",
+      "author": "Sarah Perez",
+      "date": "2026-11-16",
+      "minutes": 4,
+      "url": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
+      "source": "TechCrunch",
+      "moods": [
+        "learn",
+        "relax"
+      ],
+      "id": "acee8b481f0ba8b2"
+    },
+    {
+      "title": "The hill I will die on: There is only one acceptable occasion on which to ghost someone – when you die",
+      "description": "Een scherp geformuleerde column over datingapps, ghosting en elkaar gewoon eerlijk antwoorden.",
+      "category": "Women",
+      "kind": "Opiniecolumn",
+      "author": "Temi Wilkey",
+      "date": "2026-11-16",
+      "minutes": 5,
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/16/hill-i-will-die-on-dating-apps-bias-ghosting-romance",
+      "source": "The Guardian",
+      "moods": [
+        "relate",
+        "learn"
+      ],
+      "id": "1b844110baf00562"
+    },
+    {
+      "title": "The one change that worked: I was burnt out and lonely – until I started ice skating",
+      "description": "Een persoonlijk verhaal over iets nieuws proberen, zonder dat je er meteen goed in hoeft te zijn.",
+      "category": "Welzijn",
+      "kind": "Persoonlijk verhaal",
+      "author": "Georgina Lawton",
+      "date": "2026-11-16",
+      "minutes": 7,
+      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/16/the-one-change-that-worked-i-was-burnt-out-and-lonely-until-i-started-ice-skating",
+      "source": "The Guardian",
+      "moods": [
+        "relate",
+        "relax"
+      ],
+      "id": "1f364f8b3c6f6ed4"
+    },
+    {
+      "title": "Why don’t we hear of the “epidemic” of women’s loneliness?",
+      "description": "Een genuanceerd artikel over hoe eenzaamheid bij vrouwen soms verborgen blijft, zelfs als ze mensen om zich heen hebben.",
+      "category": "Women",
+      "kind": "Achtergrond",
+      "author": "The Guardian",
+      "date": "2026-11-15",
+      "minutes": 9,
+      "url": "https://www.theguardian.com/society/2026/nov/15/epidemic-of-lonely-women-female-male-loneliness",
+      "source": "The Guardian",
+      "moods": [
+        "relate",
+        "learn"
+      ],
+      "id": "2f6975cb098c4c92"
+    }
+  ]
+}
