@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Back-up maken | The Daily Scroll</title>
+<style>body{font:16px/1.6 system-ui,sans-serif;max-width:620px;padding:28px;margin:auto;background:#f8f8f7;color:#202b30}main{background:white;border:1px solid #dce1e3;border-radius:16px;padding:24px}button{background:#1b6259;color:white;border:0;border-radius:10px;padding:12px 18px;font:inherit;cursor:pointer}button:disabled{opacity:.5;cursor:default}p{max-width:60ch}#status{font-weight:600}small{color:#536269}</style></head>
+<body><main><h1>Back-up van The Daily Scroll</h1>
+<p>Bewaar je voortgang voordat we de app verhuizen naar je privéhub. Open deze pagina op hetzelfde toestel, in dezelfde browser en op hetzelfde webadres als je bestaande app.</p>
+<p>Deze export leest alleen gegevens van deze app uit je browser. Er worden geen gegevens verstuurd naar een server.</p>
+<button type="button" id="download">Download mijn back-up</button>
+<p id="status" role="status"></p>
+<small>Bewaar het gedownloade JSON-bestand op een veilige plaats. Deel het niet openbaar. Verwijder je oude appgegevens voorlopig niet. Deze back-up is nog geen automatische synchronisatie.</small>
+</main>
+<script>
+const keys=["ds_saved","ds_read","ds_dark"];
+document.getElementById('download').addEventListener('click',()=>{
+  const data={};
+  for(const key of keys){const value=localStorage.getItem(key);if(value!==null)data[key]=value;}
+  const status=document.getElementById('status');
+  if(!Object.keys(data).length){status.textContent='Geen opgeslagen gegevens gevonden op dit webadres en in deze browser. Controleer waar je de app normaal gebruikt.';return;}
+  const backup={format:'katrijn-app-backup',version:1,app:"the-daily-scroll",exportedAt:new Date().toISOString(),storage:data};
+  const blob=new Blob([JSON.stringify(backup,null,2)],{type:'application/json'});
+  const url=URL.createObjectURL(blob);
+  const link=document.createElement('a');link.href=url;link.download="the-daily-scroll"+'-backup-'+new Date().toISOString().slice(0,10)+'.json';
+  document.body.appendChild(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);
+  status.textContent='Back-up aangeboden als download. Controleer of het bestand werkelijk in je downloads staat.';
+});
+</script></body></html>
