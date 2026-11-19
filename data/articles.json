@@ -1,6 +1,94 @@
 {
-  "last_updated": "2026-11-18T06:06:38+01:00",
+  "last_updated": "2026-11-19T06:11:47+01:00",
   "articles": [
+    {
+      "id": "c8f185df608e1dd8",
+      "title": "Childhood neglect, unmet needs, mental health struggles: this is the making of a Neet | Mark Mon-Williams",
+      "description": "As a researcher for the Milburn review, I’ve seen how we’ve failed a generation – then castigated them. Britain must break this vicious cycle Mark Mon-Williams is chair in cognitive psychology at the University of Leeds and professor of…",
+      "category": "Welzijn",
+      "kind": "Column",
+      "author": "Mark Mon-Williams",
+      "date": "2026-11-18",
+      "minutes": 9,
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/18/neet-childhood-neglect-needs-mental-health-milburn-review-britain",
+      "source": "The Guardian",
+      "moods": [
+        "relate",
+        "relax"
+      ],
+      "interest_score": 2,
+      "image_url": "https://i.guim.co.uk/img/media/2efdb0795a39e5b009174c096765d8617ad7a64f/0_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=3b0a498f31af9fed68fb249b70ded5d9",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "As a researcher for the Milburn review, I’ve seen how we’ve failed a generation – then castigated them. Britain must break this vicious cycle, says chair in cognitive psychology at the University of Leeds Mark Mon-Williams",
+      "media_checked": true
+    },
+    {
+      "id": "388adedcc584c5bf",
+      "title": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
+      "description": "\"It doesn't feel like it's in like the top 10 weirdest things about my life,\" Altman said.",
+      "category": "Cultuur",
+      "kind": "Artikel",
+      "author": "Amanda Silberling",
+      "date": "2026-11-18",
+      "minutes": 3,
+      "url": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/",
+      "source": "TechCrunch",
+      "moods": [
+        "relax",
+        "learn"
+      ],
+      "interest_score": 4,
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305723022.jpg?w=594",
+      "has_images": true,
+      "has_video": true,
+      "video_url": "https://www.youtube.com/watch?v=wMW7-yk296U",
+      "publisher_excerpt": "\"It doesn't feel like it's in like the top 10 weirdest things about my life,\" Altman said.",
+      "media_checked": true
+    },
+    {
+      "id": "304afece1a7ecbc4",
+      "title": "‘Worst decision in cinema history’: Guardian readers shaken and stirred by the casting of Robert Pattinson as Bond",
+      "description": "‘Deliciously dark’! ‘Not sexy enough’! Opinion is split on whether the star of Twilight and The Batman is the right choice to play 007. Here’s what some of you thought So it’s official, Robert Pattinson will be James Bond. The long-awaited…",
+      "category": "Cultuur",
+      "kind": "Artikel",
+      "author": "Guardian readers",
+      "date": "2026-11-18",
+      "minutes": 5,
+      "url": "https://www.theguardian.com/film/2026/nov/18/readers-casting-robert-pattinson-bond-007",
+      "source": "The Guardian",
+      "moods": [
+        "relax",
+        "learn"
+      ],
+      "interest_score": 2,
+      "image_url": "https://i.guim.co.uk/img/media/eab76eab47acbea94d14ab5fa07f87f02beeba11/0_795_9126_7301/master/9126.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=597b450a26ed42138e6e134d3d02a714",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "‘Deliciously dark’! ‘Not sexy enough’! Opinion is split on whether the star of Twilight and The Batman is the right choice to play 007. Here’s what some of you thought",
+      "media_checked": true
+    },
+    {
+      "id": "207fdd34c12bbc4f",
+      "title": "We made GTA 6, the world’s biggest video game – we should have working conditions to match | Nestor Uriarte",
+      "description": "After the release of Grand Theft Auto VI this week, Rockstar employees like me can make history again. We need union recognition to safeguard our jobs When I first got the call offering me a job at Rockstar, I was thrilled. I thought back…",
+      "category": "Cosy",
+      "kind": "Column",
+      "author": "Nestor Uriarte",
+      "date": "2026-11-18",
+      "minutes": 7,
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/18/gta-6-grand-theft-auto-vi-rockstar-employees-union-recognition",
+      "source": "The Guardian",
+      "moods": [
+        "relax"
+      ],
+      "interest_score": 2,
+      "image_url": "https://i.guim.co.uk/img/media/c650ecb1ff92f94953053cc8603e64cb53be313f/942_0_2700_2160/master/2700.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=fb287cc0b26b908c04fa84a412a33a99",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "After the release of Grand Theft Auto VI this week, Rockstar employees like me can make history again. We need union recognition to safeguard our jobs, says animation programmer Nestor Uriarte",
+      "media_checked": true
+    },
     {
       "id": "a53e973e0b9b3b25",
       "title": "Help! Why does my apple pie always have a soggy base? | Kitchen aide",
