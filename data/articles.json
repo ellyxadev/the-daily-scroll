@@ -1,6 +1,158 @@
 {
-  "last_updated": "2026-11-20T06:06:16+01:00",
+  "last_updated": "2026-11-23T06:24:51+01:00",
   "articles": [
+    {
+      "id": "dc62efa3e5521334",
+      "title": "Hacks, AI and conspiracy theories: why are we having so many outages?",
+      "description": "After chaos at airlines, banks and companies from Microsoft to Apple, people have become convinced the world’s systems are under attack Nicole Reindorf’s American Airlines flight was ready for takeoff in Phoenix when the pilot came on the…",
+      "category": "AI",
+      "kind": "Artikel",
+      "author": "Dan Milmo, Gaya Gupta and Aisha Down",
+      "date": "2026-11-22",
+      "minutes": 5,
+      "url": "https://www.theguardian.com/technology/2026/nov/22/hacks-ai-internet-outages-airlines-banks-microsoft-apple",
+      "source": "The Guardian",
+      "moods": [
+        "learn"
+      ],
+      "interest_score": 5,
+      "image_url": "https://i.guim.co.uk/img/media/917aeeec17f3bee46d98e2201997eb1f9a0b316c/0_807_4000_3198/master/4000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7cc4a06a36f029168cf89081de8277a0",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "After chaos at airlines, banks and companies from Microsoft to Apple, people have become convinced the world’s systems are under attack",
+      "media_checked": true
+    },
+    {
+      "id": "c4646672c65e633f",
+      "title": "How Tamagotchis got us hooked on digital pets",
+      "description": "If you were are a kid in the late 1990s, there's a near-100 percent chance you either had a Tamagotchi or knew someone who did. The tiny digital pets came out of nowhere and became an overnight sensation, as millions of kids signed up to…",
+      "category": "Humor",
+      "kind": "Artikel",
+      "author": "David Pierce",
+      "date": "2026-11-22",
+      "minutes": 4,
+      "url": "https://www.theverge.com/podcast/1039716/tamagotchi-history-digital-pets-anniversary",
+      "source": "The Verge",
+      "moods": [
+        "laugh",
+        "relax"
+      ],
+      "interest_score": 5,
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRH_Tamagotchi_Site.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "has_images": true,
+      "has_video": true,
+      "video_url": "https://www.youtube.com/watch?v=VmJresLF3ho",
+      "publisher_excerpt": "Please, make the beeping stop.",
+      "media_checked": true
+    },
+    {
+      "id": "908f6f932c5c3b98",
+      "title": "Why I won’t leave mathematics, despite AI solving centuries-old problems | Ken Ono",
+      "description": "I believe human judgment remains essential Last year, I nearly quit mathematics. On 20 November, Levent Alpöge announced that, working with Claude, he had proved the Riemann hypothesis, a 167-year-old problem about the distribution of…",
+      "category": "AI",
+      "kind": "Column",
+      "author": "Ken Ono",
+      "date": "2026-11-22",
+      "minutes": 7,
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/22/why-i-wont-leave-mathematics-despite-ai-solving-centuries-old-problems",
+      "source": "The Guardian",
+      "moods": [
+        "learn"
+      ],
+      "interest_score": 5,
+      "image_url": "https://i.guim.co.uk/img/media/df6c16bf913288657abe83afff8969abdd383bad/581_0_4307_3445/master/4307.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=91ea4a4ff3ca2da76a016f63e3049ab6",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "I believe human judgment remains essential",
+      "media_checked": true
+    },
+    {
+      "id": "5d7d654100f4f9d7",
+      "title": "The cost-of-living crisis was harming Claudia’s mental wellbeing. Together we worked out strategies to help her cope | Bianca Denny",
+      "description": "In trying to save for a house deposit, she had sacrificed activities that brought her joy. And constant checking of her bank balance exacerbated her fears The modern mind is a column where experts discuss mental health issues they are…",
+      "category": "Welzijn",
+      "kind": "Column",
+      "author": "Bianca Denny",
+      "date": "2026-11-22",
+      "minutes": 6,
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/23/cost-of-living-crisis-financial-stress-mental-health-coping-strategies",
+      "source": "The Guardian",
+      "moods": [
+        "relate",
+        "relax"
+      ],
+      "interest_score": 2,
+      "image_url": "https://i.guim.co.uk/img/media/618f4804ce35381d9f92296cf51017a58008f06d/0_137_4059_3249/master/4059.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=d51855c8a4aa39af1797ed5d08022750",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "In trying to save for a house deposit, she had sacrificed activities that brought her joy. And constant checking of her bank balance exacerbated her fears",
+      "media_checked": true
+    },
+    {
+      "id": "76e8165eb37567c0",
+      "title": "I’m a priest. Silicon Valley’s search for the ‘soul’ of AI is deeply troubling | Rev Kevin Deal",
+      "description": "Humans experience beauty and sit with mysteries. Unlike AI, we do not exist merely for utility Last month, religious leaders from across San Francisco gathered behind closed doors to discuss what it means to be human in the age of…",
+      "category": "AI",
+      "kind": "Column",
+      "author": "Rev Kevin Deal",
+      "date": "2026-11-21",
+      "minutes": 5,
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/21/silicon-valleys-ai-soul-search",
+      "source": "The Guardian",
+      "moods": [
+        "learn"
+      ],
+      "interest_score": 3,
+      "image_url": "https://i.guim.co.uk/img/media/3d6259c7c4a22f7ecae82e1aef45d9bc1fff8bd3/147_152_2937_2350/master/2937.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=430c17cb99ff0476b6b2e660bfffde07",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "Humans experience beauty and sit with mysteries. Unlike AI, we do not exist merely for utility",
+      "media_checked": true
+    },
+    {
+      "id": "b68a6d3872878a9e",
+      "title": "Delays mean Robert Pattinson doesn’t have to do a third Batman movie. DC Studios had better persuade him – and fast",
+      "description": "The actor’s new role as James Bond could be bad news for DC, as a new owner, new chief and new director already threaten to shake and stir Gotham’s distinctive hero Can one actor play both Batman and James Bond? This is the question many…",
+      "category": "Cultuur",
+      "kind": "Artikel",
+      "author": "Ben Child",
+      "date": "2026-11-20",
+      "minutes": 7,
+      "url": "https://www.theguardian.com/film/2026/nov/20/robert-pattinson-batman-james-bond-third-movie-delays-dc",
+      "source": "The Guardian",
+      "moods": [
+        "relax",
+        "learn"
+      ],
+      "interest_score": 2,
+      "image_url": "https://i.guim.co.uk/img/media/c8c00617b792d1d53f2d2b318820d5758dc61551/592_0_2225_1782/master/2225.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=61f3b312ec6467b1632eb4f185e73958",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "The actor’s new role as James Bond could be bad news for DC, as a new owner, new chief and new director already threaten to shake and stir Gotham’s distinctive hero",
+      "media_checked": true
+    },
+    {
+      "id": "5734dccee736867c",
+      "title": "‘We’re the most arrogant of all apes!’ A delightfully mind-expanding encounter with Peter Gabriel",
+      "description": "From sampling to streaming, the rock legend has always been in thrall to technology – but is superintelligence a step too far? Back with an epic new album, he unpacks his remarkable ideas Peter Gabriel asks me to fetch my laptop: he wants…",
+      "category": "Cultuur",
+      "kind": "Artikel",
+      "author": "Alexis Petridis",
+      "date": "2026-11-20",
+      "minutes": 10,
+      "url": "https://www.theguardian.com/music/2026/nov/20/peter-gabriel-interview-ai-music-bonobo-ape-duets-jurassic-park-plants",
+      "source": "The Guardian",
+      "moods": [
+        "relax",
+        "learn"
+      ],
+      "interest_score": 3,
+      "image_url": "https://i.guim.co.uk/img/media/124bc29050c7da765c91e3c9121b3b2ab887ffa0/0_715_4126_3300/master/4126.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e7937a44819082fb118fed6e8f1d12b3",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "From sampling to streaming, the rock legend has always been ahead of the curve. Now, back with an epic new album, he talks about success on his own terms and his theories on virtually everything",
+      "media_checked": true
+    },
     {
       "id": "eb3732df8d92c495",
       "title": "I will watch Nathan Fielder’s You Can See Everything – even if it makes me vomit into my popcorn mid-screening | Rebecca Shaw",
