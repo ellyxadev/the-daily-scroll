@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-11-23T06:24:51+01:00",
+  "last_updated": "2026-11-24T06:14:15+01:00",
   "articles": [
+    {
+      "id": "f0571c633967751a",
+      "title": "‘Reminds me of home’: why Coming to America is my feelgood movie",
+      "description": "The latest in our series of writers picking their most rewatched comfort films is an ode to Eddie Murphy’s beloved culture-clash comedy “Good morning, my neighbors!” A young Eddie Murphy shouts from the balcony of a shady apartment…",
+      "category": "Cultuur",
+      "kind": "Artikel",
+      "author": "Morgan Jerkins",
+      "date": "2026-11-23",
+      "minutes": 10,
+      "url": "https://www.theguardian.com/film/2026/nov/23/coming-to-america-feelgood-movie",
+      "source": "The Guardian",
+      "moods": [
+        "relax",
+        "learn"
+      ],
+      "interest_score": 5,
+      "image_url": "https://i.guim.co.uk/img/media/a8825d5875ec4c675ce13ae27e85d5e295e7f0cd/204_0_1483_1186/master/1483.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=72b2d557f8bb936d296d834fb1b5f2dd",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "The latest in our series of writers picking their most rewatched comfort films is an ode to Eddie Murphy’s beloved culture-clash comedy",
+      "media_checked": true
+    },
+    {
+      "id": "8293de67b320626b",
+      "title": "Nasa is looking for new astronauts to send to the moon, and I know who’d be perfect for the job: middle-aged women like me | Helen Pilcher",
+      "description": "We’ve been training for this mission for years – solving problems, defusing tensions, keeping everyone fed – and we’d absolutely smash it Nasa is hiring and I’m over the moon. The US space agency is recruiting its next cohort of astronauts…",
+      "category": "Women",
+      "kind": "Column",
+      "author": "Helen Pilcher",
+      "date": "2026-11-23",
+      "minutes": 8,
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/23/nasa-astronauts-moon-science-crew-member-women",
+      "source": "The Guardian",
+      "moods": [
+        "relate",
+        "learn"
+      ],
+      "interest_score": 4,
+      "image_url": "https://i.guim.co.uk/img/media/0ba8eef341a557c7376f779e5e6712fa00ba52c4/147_1_2652_2122/master/2652.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=128aaa78e89935c44d52cf37de52e9e6",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "We’ve been training for this mission for years – solving problems, defusing tensions, keeping everyone fed – and we’d absolutely smash it, says science writer Helen Pilcher",
+      "media_checked": true
+    },
+    {
+      "id": "39e9dc35be5e1ebb",
+      "title": "The pet I’ll never forget: Susan Badger, the stray dog saved by a box of fried chicken",
+      "description": "No one could get close to this odd-looking pup when she appeared at a Maryland construction site. But hunger brought her in from the cold – and gave her a loving home I was driving to a doctor’s appointment in March when I saw a scruffy…",
+      "category": "Humor",
+      "kind": "Artikel",
+      "author": "Robert Mark, as told to Majidah Chowdhury",
+      "date": "2026-11-23",
+      "minutes": 6,
+      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/23/the-pet-ill-never-forget-susan-badger-the-stray-dog-saved-by-a-box-of-fried-chicken",
+      "source": "The Guardian",
+      "moods": [
+        "laugh",
+        "relax"
+      ],
+      "interest_score": 3,
+      "image_url": "https://i.guim.co.uk/img/media/4d768605c035d0287f288baf582ac1b547f59442/0_1183_4284_3427/master/4284.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=eaf26e76986b40f51b6aeb3379eb6dae",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "No one could get close to this odd-looking pup when she appeared at a Maryland construction site. But hunger brought her in from the cold – and gave her a loving home",
+      "media_checked": true
+    },
     {
       "id": "dc62efa3e5521334",
       "title": "Hacks, AI and conspiracy theories: why are we having so many outages?",
