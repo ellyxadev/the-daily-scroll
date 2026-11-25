@@ -1,6 +1,114 @@
 {
-  "last_updated": "2026-11-24T06:14:15+01:00",
+  "last_updated": "2026-11-25T06:16:45+01:00",
   "articles": [
+    {
+      "id": "eb3bdaf8a84f37da",
+      "title": "I asked AI if it was OK to use AI to write an obituary. The answer surprised me | Anna Spargo-Ryan",
+      "description": "Victorian Liberal leader Jess Wilson’s tribute to Molly Meldrum contained heaps of the right words. But they were written by something that can’t feel I know how this will sound but when my nanna died the second thought I had, after utter…",
+      "category": "AI",
+      "kind": "Column",
+      "author": "Anna Spargo-Ryan",
+      "date": "2026-11-25",
+      "minutes": 6,
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/25/jess-wilson-molly-meldrum-tribute-ai-ethics-obituary",
+      "source": "The Guardian",
+      "moods": [
+        "learn"
+      ],
+      "interest_score": 3,
+      "image_url": "https://i.guim.co.uk/img/media/f3c83be0e5415a34561d49dc0d5206b7ca0cc88f/16_0_4680_3744/master/4680.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=2ce00b7814541369575f9918e632ef3e",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "Victorian Liberal leader Jess Wilson’s tribute to Molly Meldrum contained heaps of the right words. But they were written by something that can’t feel",
+      "media_checked": true
+    },
+    {
+      "id": "d8e3d47762b00c13",
+      "title": "Caitlin Moran, writer and broadcaster – podcast",
+      "description": "Caitlin Moran on writing her way out of teenage poverty, making a birthday cake that tasted of dog food, and her passion for spreading hopefulness This week on Comfort Eating, Siobhán McSweeney is joined by the writer and broadcaster…",
+      "category": "Cultuur",
+      "kind": "Artikel",
+      "author": "Hosted by Siobhán McSweeney, series producer Sophie King, video producer Jamie Jackson, researcher a",
+      "date": "2026-11-25",
+      "minutes": 4,
+      "url": "https://www.theguardian.com/lifeandstyle/audio/2026/nov/25/caitlin-moran-writer-and-broadcaster-podcast",
+      "source": "The Guardian",
+      "moods": [
+        "relax",
+        "learn"
+      ],
+      "interest_score": 3,
+      "image_url": "https://i.guim.co.uk/img/media/b36535461cc0dc89a22c26370ca856bfcc3e5e32/392_0_2698_2160/master/2698.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=99d062fb47521269868b202258360d0a",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "Caitlin Moran on writing her way out of teenage poverty, making a birthday cake that tasted of dog food, and her passion for spreading hopefulness",
+      "media_checked": true
+    },
+    {
+      "id": "f9f817f4d80687fe",
+      "title": "Was Benjamin Franklin the original wellness bro? I lived like him for a day to find out",
+      "description": "Before online influencers existed, the founding father published an annual wellness pamphlet. I followed his 13 virtues he found necessary for a good life Benjamin Franklin doesn’t get enough credit. Yes, he was a founding father of the…",
+      "category": "Welzijn",
+      "kind": "Artikel",
+      "author": "Madeleine Aggeler",
+      "date": "2026-11-24",
+      "minutes": 6,
+      "url": "https://www.theguardian.com/wellness/2026/nov/24/benjamin-franklin-wellness-routine",
+      "source": "The Guardian",
+      "moods": [
+        "relate",
+        "relax"
+      ],
+      "interest_score": 3,
+      "image_url": "https://i.guim.co.uk/img/media/4f65769a0282514d096c6fae188f15044b6da515/0_0_3000_2400/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8ea19ef70b34366a4473b684acf741cc",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "Before online influencers existed, the founding father published an annual wellness pamphlet. I followed his 13 virtues he found necessary for a good life",
+      "media_checked": true
+    },
+    {
+      "id": "b6f91c10121e3db7",
+      "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+      "description": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+      "category": "AI",
+      "kind": "Artikel",
+      "author": "Tim De Chant",
+      "date": "2026-11-24",
+      "minutes": 4,
+      "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+      "source": "TechCrunch",
+      "moods": [
+        "learn"
+      ],
+      "interest_score": 3,
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/05/GettyImages-1373266060.jpg?resize=1200,800",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+      "media_checked": true
+    },
+    {
+      "id": "036b94382fb31f52",
+      "title": "Man Theft Auto – why did so few women review GTA VI, the biggest video game of the decade?",
+      "description": "Given that this is the first Grand Theft Auto in 30 years with a female protagonist, you might have expected to hear from female critics. But you would have expected mostly in vain Grand Theft Auto VI is now the biggest video game launch…",
+      "category": "Women",
+      "kind": "Artikel",
+      "author": "Alyssa Mercante",
+      "date": "2026-11-24",
+      "minutes": 7,
+      "url": "https://www.theguardian.com/games/2026/nov/24/man-theft-auto-why-did-so-few-women-review-gta-vi-the-biggest-video-game-of-the-decade",
+      "source": "The Guardian",
+      "moods": [
+        "relate",
+        "learn"
+      ],
+      "interest_score": 7,
+      "image_url": "https://i.guim.co.uk/img/media/2fc8ed1ff2ddf2ec69dbdfa3eccfb77a462e4e83/1111_0_2699_2160/master/2699.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=52fd6d0c0514dcf660f6ab9a226b0bbb",
+      "has_images": true,
+      "has_video": false,
+      "publisher_excerpt": "Given that this is the first Grand Theft Auto in 30 years with a female protagonist, you might have expected to hear from female critics. But you would have expected mostly in vain",
+      "media_checked": true
+    },
     {
       "id": "f0571c633967751a",
       "title": "‘Reminds me of home’: why Coming to America is my feelgood movie",
